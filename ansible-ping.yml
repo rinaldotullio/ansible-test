@@ -1,0 +1,6 @@
+- name: Pingo tutti
+  hosts: all
+  tasks:
+    - name: Hello Message
+      ping:
+
